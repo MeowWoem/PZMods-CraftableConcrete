@@ -1,0 +1,5 @@
+version=1
+title=[B42] Craftable Concrete
+description=
+tags=Build 42;Items;Realistic;QoL
+visibility=public

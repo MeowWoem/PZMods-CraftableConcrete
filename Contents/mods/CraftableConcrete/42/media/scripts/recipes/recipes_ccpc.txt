@@ -1,0 +1,24 @@
+module Base
+{
+	craftRecipe CraftConcretePowder
+	{
+		timedAction = MixingBucket,
+		Time = 150,
+		Tags = InHandCraft,
+		category = Masonry,
+		SkillRequired = Masonry:3,
+        xpAward = Masonry:2,
+		inputs
+		{
+			item 1 [Base.Bucket;Base.BucketForged;Base.BucketEmpty;Base.BucketCarved] mode:keep,
+			item 1 [Base.Quicklime],
+			item 2 [Base.Sandbag],
+			item 3 [Base.Gravelbag],
+		}
+		outputs
+		{
+			item 1 Base.ConcretePowder,
+		}
+	}
+	
+}
