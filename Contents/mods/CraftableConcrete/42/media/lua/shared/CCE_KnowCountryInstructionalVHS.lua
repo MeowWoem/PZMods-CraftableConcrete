@@ -1,11 +1,11 @@
-local MOD_DATA_KEY = "MD_RM_CCE_VHS_FINALTEST";
+local MOD_DATA_KEY = "MD_RM_CCE_VHS_1";
 local BOREDOM_PER_LINE = -5;
 
 local Tapes = {
     {
         id = "RM_CCE_6-0c97-47b9-811b-b4ff4157618e",
         name = "RM_CCE_VHS_NAME",
-        perk = "Masonry",
+        perk = { id = "Masonry", xp = 75 },
         volume = 1,
         recipesToLearn = {
             "CraftConcretePowder",
@@ -121,20 +121,14 @@ local function applyTapeLine(player, codes)
     if rmpTapeId then
         local tape = TapeById[rmpTapeId];
         if tape and tape.perk then
-            local watchedKey = tape.perk .. ":V" .. tostring(tape.volume);
+            local watchedKey = tape.perk.id .. ":V" .. tostring(tape.volume);
             if not modData.perksWatched[watchedKey] then
                 modData.perksWatched[watchedKey] = true;
                 changed = true;
 
-                local perk = Perks.FromString(tape.perk);
-                if perk and perk ~= Perks.None and player:getPerkLevel(perk) < 10 then
-                    player:LevelPerk(perk);
-
-                    local newLevel = player:getPerkLevel(perk);
-                    local xp = player:getXp();
-                    if xp and xp:getXP(perk) < perk:getTotalXpForLevel(newLevel) then
-                        xp:setXPToLevel(perk, newLevel);
-                    end
+                local perk = Perks.FromString(tape.perk.id);
+                if perk and perk ~= Perks.None then
+                    player:getXp():AddXP(perk, tape.perk.xp);
                 end
             end
         end
@@ -176,7 +170,7 @@ local function applyTapeLine(player, codes)
                     changed = true;
 
                     if tape.recipeLearnedText then
-                        HaloTextHelper.addTextWithArrow(player, tape.recipeLearnedText), true, HaloTextHelper.getColorGreen());
+                        HaloTextHelper.addTextWithArrow(player, getText(tape.recipeLearnedText), true, HaloTextHelper.getColorGreen());
                     end
                 end
             end
@@ -216,8 +210,7 @@ local function onDeviceText(guid, codes, x, y, z, line)
     end
 end
 
-if(isDebugEnabled()) then
-
+if (isDebugEnabled()) then
 
 CCE_DEBUG = CCE_DEBUG or {};
 
