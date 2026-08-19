@@ -8,6 +8,8 @@ module Base
 		category = Masonry,
 		SkillRequired = Masonry:3,
         xpAward = Masonry:2,
+        NeedToBeLearn = true,
+        AutoLearnAll = Masonry:7;Cooking:3,
 		inputs
 		{
 			item 1 [Base.Bucket;Base.BucketForged;Base.BucketEmpty;Base.BucketCarved] mode:keep,
