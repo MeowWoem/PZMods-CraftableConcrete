@@ -23,6 +23,20 @@ description=[*] 1 Bucket (kept)
 description=[/list]
 description=Skill: [b]Masonry 3[/b]
 description=
+description=[b]Learning the recipe[/b]
+description=The Concrete Powder recipe is not known by default, you'll need to unlock it first. Two ways to do that:[list]
+description=[*] Watch the "Self-sufficiency Module 11" VHS tape (see below) from start to finish.
+description=[*] Naturally reach Masonry level 7 and Cooking level 3.
+description=[/list]
+description=
+description=[h2]New Item[/h2]
+description=[i]Somewhere between old workplace safety videos and mandatory HR trainings, Knox County Instructional filmed a home-study series nobody asked for. Module 11 covers concrete, hosted by a man named Hank Vance who has more personal problems than concrete know-how.[/i]
+description=
+description=Find the VHS tape "Self-sufficiency Module 11: Make your own concrete" in the Retail-VHS loot pool, pop it in your TV, and watch it through to learn the Concrete Powder recipe on the spot, no skill grinding required.
+description=
+description=Curious what it actually looks like? The tape is a word-for-word recording of this mod's own presentation video, right here on this page. Yes, the VHS in-game and the video below are the exact same thing.
+description=https://www.youtube.com/watch?v=QCI-SJPz8Bk
+description=
 description=[h2]Credits[/h2]
 description=[b]Code & Design:[/b] Amenophis
 description=[b]Craftable Series Logo:[/b] Amenophis
@@ -30,6 +44,6 @@ description=[b]Workshop Thumbnail:[/b] Amenophis
 description=
 description=[hr][/hr]
 description=[h2]Checkout my other mods[/h2]
-description=[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3778691521][img]https://images.steamusercontent.com/ugc/16333673626757323012/72F09E40F1C70C1003ABC8274FB17F30ACCE3E3D/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true[/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3475536311][img]https://images.steamusercontent.com/ugc/12100275261491882697/33E295DD1100045F9B478FB11325E5D331695A42/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true[/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3493292424][img]https://images.steamusercontent.com/ugc/15384947468815531752/F81E7D02699E7CE196CD4F554B9232A1CEC749C0/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true[/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3785982533][img]https://images.steamusercontent.com/ugc/17025573194566178884/8633BD6037E0908CE3EC7776ED4C5A4A0694DFE6/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true[/img][/url]
+description=[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3778691521][img]https://images.steamusercontent.com/ugc/16333673626757323012/72F09E40F1C70C1003ABC8274FB17F30ACCE3E3D/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true[/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3475536311][img]https://images.steamusercontent.com/ugc/12100275261491882697/33E295DD1100045F9B478FB11325E5D331695A42/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true[/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3493292424][img]https://images.steamusercontent.com/ugc/15384947468815531752/F81E7D02699E7CE196CD4F554B9232A1CEC749C0/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true[/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3785982533][img]https://images.steamusercontent.com/ugc/17025573194566178884/8633BD6037E0908CE3EC7776ED4C5A4A0694DFE6/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true[/img][/url]
 tags=Build 42;Items;Multiplayer;Realistic;QoL
 visibility=public
