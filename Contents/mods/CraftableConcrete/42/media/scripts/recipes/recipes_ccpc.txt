@@ -11,9 +11,9 @@ module Base
 		inputs
 		{
 			item 1 [Base.Bucket;Base.BucketForged;Base.BucketEmpty;Base.BucketCarved] mode:keep,
-			item 1 [Base.Quicklime],
-			item 2 [Base.Sandbag],
-			item 3 [Base.Gravelbag],
+			item 1 [Base.Quicklime] mode:destroy,
+			item 8 [Base.Sandbag],
+			item 12 [Base.Gravelbag],
 		}
 		outputs
 		{
